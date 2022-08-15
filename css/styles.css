@@ -13,6 +13,7 @@
 }
 */
 
+/*tags HTML*/
 
 table {
 	height: 100%;
@@ -23,20 +24,23 @@ table h1 {
 	max-height: 25px;
 }
 
-td {
-	width: 5em;
-	height: 5em;
-	text-align: center;
-	vertical-align: middle;
-	border: outset;
-	position: relative;
-}
-
 th {
 	min-height: 5em;  
 	text-align: center;
 	vertical-align: bottom;
 	font-size:20
+}
+
+td {
+	width: 5em;
+	height: 5em;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border-spacing: 0;
+	border: 1px solid black;	
 }
 
 /* cores dos elementos */
@@ -77,10 +81,6 @@ th {
 
 .symbol {
 	font-size: 1.5em;
-}
-
-td {
-	border: 1px solid black;
 }
 
 /* Dialog */
