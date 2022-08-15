@@ -20,10 +20,6 @@ table {
 	width: 100%;
 }
 
-table h1 {
-	max-height: 25px;
-}
-
 th {
 	min-height: 5em;  
 	text-align: center;
