@@ -1,7 +1,7 @@
 .empty {
 	visibility: hidden;
 }
-
+/*
 @media only screen and (orientation: portrait) {
 	html {
 		transform: rotate(-90deg);
@@ -14,6 +14,7 @@
 		left: 0;
 	}
 }
+*/
 
 * {
 	margin: 0;
@@ -107,3 +108,4 @@ td {
 		position:absolute;
 		background-color:white;
 }
+
