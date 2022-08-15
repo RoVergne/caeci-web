@@ -18,13 +18,16 @@
 table {
 	height: 100%;
 	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-spacing: 0;
 }
 
 th {
 	min-height: 5em;  
 	text-align: center;
 	vertical-align: bottom;
-	font-size:20
+	font-size:20;
 }
 
 td {
@@ -33,9 +36,6 @@ td {
 	text-align: center;
 	vertical-align: middle;
 	position: relative;
-	margin: 0;
-	padding: 0;
-	border-spacing: 0;
 	border: 1px solid black;	
 }
 
